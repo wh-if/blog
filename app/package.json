@@ -1,0 +1,41 @@
+{
+  "name": "whif",
+  "version": "0.1.0",
+  "homepage": "/",
+  "proxy": "https://gitee.com",
+  "private": true,
+  "dependencies": {
+    "anix": "^0.3.3",
+    "axios": "^0.21.1",
+    "jquery": "^3.2.1",
+    "micromark": "^3.0.5",
+    "micromark-extension-gfm": "^1.0.0",
+    "particles-bg": "^2.3.12",
+    "react": "^17.0.1",
+    "react-app-polyfill": "^2.0.0",
+    "react-dom": "^17.0.1",
+    "react-ga": "^2.3.5",
+    "react-scripts": "4.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all",
+      "ie > 9"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version",
+      "ie > 9"
+    ]
+  },
+  "devDependencies": {}
+}

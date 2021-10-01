@@ -1,0 +1,93 @@
+header {
+    position: relative;
+    background-color: #0f0f0f;
+}
+
+header .banner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 85%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+header .banner-text {
+    width: 100%;
+}
+
+header .banner-text .title {
+    font: 90px/1.1em 'opensans-bold', sans-serif;
+    color: #fff;
+    letter-spacing: -2px;
+    margin: 0 auto 18px auto;
+}
+
+header .banner-text .description {
+    font: 18px/1.9em 'librebaskerville-regular', serif;
+    color: #ddd;
+    margin: 0 auto;
+    width: 70%;
+}
+
+header .banner-text .description span,
+header .banner-text .description a {
+    color: #fff;
+}
+
+header .scroll {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: scroll infinite 1.5s ease-out;
+    margin: 0 auto;
+    height: 4rem;
+
+}
+
+@keyframes scroll {
+    0% {
+        opacity: 1;
+        top: 90%;
+    }
+
+    80% {
+        opacity: 0;
+        top: 93%;
+    }
+
+    100% {
+        opacity: 0;
+        top: 90%;
+    }
+}
+
+header .scroll .scroll-a {
+    color: #fff;
+    font-size: 3.5rem;
+    text-decoration: none;
+}
+
+
+/*正常的未被访问过的链接*/
+header .scroll .scroll-a:link {
+    text-decoration: none;
+}
+
+/*已经访问过的链接*/
+header .scroll .scroll-a:visited {
+    text-decoration: none;
+}
+
+/*鼠标划过(停留)的链接*/
+header .scroll .scroll-a:hover {
+    text-decoration: none;
+}
+
+/* 正在点击的链接*/
+header .scroll .scroll-a:active {
+    text-decoration: none;
+}

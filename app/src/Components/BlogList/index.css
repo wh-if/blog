@@ -1,0 +1,44 @@
+.blog-box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 520px;
+}
+
+.blog-item {
+    width: 30%;
+    min-width: 250px;
+    margin: 0 auto;
+    height: 60px;
+    transition: all 0.3s linear;
+    background-color: rgba(255, 255, 255, .3);
+    border-radius: 15px;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.blog-item:hover {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.text-overflow {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.item-title {
+    color: rgb(0, 0, 0);
+    margin: 0.3rem 0;
+    padding: 0;
+    font-size: 1.5rem;
+}
+
+.item-created {
+    margin: 0;
+    padding: 0;
+    font-size: 0.5rem;
+    color: rgb(66, 66, 66);
+
+}

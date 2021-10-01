@@ -1,0 +1,33 @@
+.my-nav {
+    position: fixed;
+    right: 5%;
+    bottom: 5%;
+    animation: show 1s ease-in;
+}
+
+
+.my-nav .nav-item {
+    width: 4vh;
+    height: 4vh;
+    background-color: rgb(221, 221, 221);
+    color: white;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin: 1vh 0;
+}
+
+.my-nav .nav-item a {
+    line-height: 4vh;
+}
+
+@keyframes show {
+    from {
+        bottom: 3%;
+        opacity: 0;
+    }
+
+    to {
+        bottom: 5%;
+        opacity: 1;
+    }
+}
