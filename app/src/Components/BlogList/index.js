@@ -21,8 +21,8 @@ export default function BlogList(props) {
                 let time = new Date(parseInt(item.created))
                 return (
                     <div onClick={() => handleClick(item)} key={item.id} className="blog-item">
-                        <p className='item-title'>{item.title}</p>
-                        <p className="item-created">{time.toLocaleString()}</p>
+                        <p className='item-title text-overflow'>{item.title}</p>
+                        <p className="item-created text-overflow">{time.toLocaleString()}</p>
                     </div>
                 )
             })
